@@ -1,1 +1,11 @@
-
+- Credit Card Application System with a user-friendly Tkinter GUI.
+- User Authentication: Requires login before accessing the application form.
+- Form Input Fields: Collects name, email, Aadhaar, PAN, income, credit score, education, requested amount, and card number.
+- Input Validation:
+    Email validated via an external API.
+    Aadhaar and PAN formats checked with regex and digit checks.
+    Card number validated using the Luhn algorithm.
+- Credit Assessment: Calculates eligibility, maximum credit limit, and interest rate based on user data.
+- Result Feedback: Displays approval/decline messages and credit details.
+- Logout Functionality: Allows users to securely log out.
+- Modern UI: Clean, styled interface using Tkinter and ttk widgets.
