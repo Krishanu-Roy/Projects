@@ -19,7 +19,7 @@ def luhn_check(card_number):
     return checksum % 10 == 0
 
 def validate_email(email):
-    API_KEY = "3ec182639d01402d98327d5cbe37695e"
+    API_KEY = "************************************"
     url = f"https://emailvalidation.abstractapi.com/v1/?api_key={API_KEY}&email={email}"
     try:
         response = requests.get(url, timeout=5)
