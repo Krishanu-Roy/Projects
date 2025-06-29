@@ -122,10 +122,7 @@ credit-card-app/
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
 ## Author
+- Krishanu Roy
